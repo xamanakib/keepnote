@@ -1,0 +1,102 @@
+    #myheading {
+        width: fit-content;
+        margin: auto;
+    }
+    
+     :root {
+        --primary: #fff;
+        --secondary: #212529;
+        --light-border: #ced4da;
+        --dark-border: #ffffff20;
+    }
+    
+    .dark-theme {
+        --primary: #212529;
+        --secondary: #ffffffd1;
+        --light-border: #ffffff20;
+        --dark-border: #ced4da;
+    }
+    
+    #dark {
+        font-size: 12px;
+        margin: 2vw;
+    }
+    
+    #icon {
+        width: 30px;
+        cursor: pointer;
+    }
+    
+    .navbar {
+        background-color: var( --secondary) !important;
+    }
+    
+    .navbar-dark .navbar-brand {
+        color: var(--primary) !important;
+    }
+    
+    .navbar-dark .navbar-nav .nav-link.active,
+    .navbar-dark .navbar-nav .show>.nav-link {
+        color: var(--primary) !important;
+    }
+    
+    .navbar-dark .navbar-toggler {
+        background-color: black;
+    }
+    
+    body {
+        background-color: var( --primary);
+    }
+    
+    .card {
+        background-color: var( --primary);
+        color: var(--secondary);
+        border: 1px solid var(--light-border);
+    }
+    
+    h1 {
+        color: var(--secondary)
+    }
+    
+    .noteCard {
+        border: 1px solid var(--light-border);
+    }
+    
+    #addTxt:enabled {
+        background-color: var( --primary);
+        color: var(--secondary);
+        border: 1px solid var(--light-border)!important;
+    }
+    
+    #addTxt {
+        background-color: var( --primary);
+        color: var(--secondary);
+        border: 1px solid var(--light-border)!important;
+    }
+    
+    #notes {
+        color: var(--secondary);
+    }
+    
+    #userNote {
+        border-bottom: 1px solid var(--light-border);
+        padding-bottom: 8px;
+    }
+    
+    .myName {
+        width: fit-content;
+        margin: auto;
+        border: 2px solid var(--secondary);
+        color: var(--secondary);
+        background: var(--primary);
+        border-radius: 15px;
+        font-size: 26px;
+        font-weight: 300;
+        cursor: pointer;
+        padding: 0 7px;
+    }
+    
+    .myName:hover {
+        transform: scale(.95);
+        background: var(--light-border);
+    }
